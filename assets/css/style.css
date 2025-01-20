@@ -1,0 +1,159 @@
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+    .dev {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #3E6AF2;
+        height: 61px;
+    }
+    
+    body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+
+    .col ul {
+        margin-left: -42px;
+        margin-bottom: auto ;
+    }
+
+
+    .container {
+        width: 800px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    
+    .header {
+        display: flex;
+    } 
+
+    
+    ul {
+        list-style: none;
+        
+    }
+    
+    ul li:before {
+        content: '\2022';
+        color: #3498db;
+        
+    }
+    
+    .nome {
+        margin-top: -40px;
+        height: auto;
+        opacity: 1;
+        font-size: 24px;
+    }
+    
+    .profile-photo {
+        width: 150px;
+        height: 200px;
+        border-radius: 10%;
+        background-image: url('/assets/img/WhatsApp Image 2024-08-27 at 21.51.34.jpeg');
+        background-size: cover;
+        background-position: center;
+        margin-right: 20px;
+    }
+    
+    .imagem-email {
+        background-image: url('/assets/img/Email.png');
+    }
+    
+    .imagem-endereço {
+        background-image: url('/assets/img/Address.png');
+    }
+    
+    .imagem-linkedin {
+        background-image: url('/assets/img/Site.png');
+    }
+    
+    .imagem-telefone {
+        background-image: url('/assets/img/Phone.png');
+    }
+    
+    .imagem-git {
+       background-image: url('/assets/img/github.png') ; 
+    }
+    
+    .icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+    
+    .info p {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+main {
+    margin-top: 20px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li:before {
+    content: '\2022';
+}
+
+ul  {
+    margin: 10px;
+}
+
+.education-item, .employment-item {
+    margin-bottom: 20px;
+}
+
+.education-item .left, .employment-item .left {
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 5px;
+}
+
+
+.education-item .right h4, .employment-item .right h4 {
+    margin: 5px 0;
+}
+
+p, ul, h3, h4 {
+    line-height: 1.6;
+    text-align: justify;
+}
